@@ -1,0 +1,23 @@
+.card{
+     box-shadow: 2px 2px 2px 2px #eee;
+}
+.card__title{
+    padding: .5em;
+}
+.card__info{
+    padding: .5em;
+}
+
+@media(min-width:720px){
+     .about-conference{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-gap: 2em;
+     }
+
+     .card{
+        
+         margin:3em 0 1em 0;
+
+     }
+}

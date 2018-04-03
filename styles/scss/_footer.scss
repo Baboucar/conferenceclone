@@ -1,0 +1,19 @@
+.main__footer{
+    background: #293f50;
+}
+.footer{
+    padding: 1em;
+}
+
+@media(min-width:720px){
+    .footer{
+        display: flex;
+        align-items: center;
+
+        nav{
+            margin-left: auto;
+        }
+        
+    }
+    
+}
